@@ -1,0 +1,10 @@
+{
+  "Environment": "publictest",
+  "Branch": "beta",
+  "Version": "1694.3",
+  "ExeBuildTime": "2013-08-17T06:15:45+02:00",
+  "ExeSHA256": "fad675387a8e8920fee0745e3fb068764c82e31dae32ade493dad3485579440c",
+  "ExeSize": 33488888,
+  "MatrixProtocolVersion": 28930,
+  "GSSProtocolVersion": 1971
+}

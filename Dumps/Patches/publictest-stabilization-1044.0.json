@@ -1,0 +1,10 @@
+{
+  "Environment": "publictest",
+  "Branch": "stabilization",
+  "Version": "1044.0",
+  "ExeBuildTime": "2013-11-05T01:12:35+01:00",
+  "ExeSHA256": "391a293a1327c613626a4c4f5660d411ed8cc85ae5517a51df3a576dbb55ae16",
+  "ExeSize": 34104152,
+  "MatrixProtocolVersion": 58564,
+  "GSSProtocolVersion": 25361
+}

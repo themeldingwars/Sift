@@ -1,0 +1,10 @@
+{
+  "Environment": "production",
+  "Branch": "beta",
+  "Version": "1833.0",
+  "ExeBuildTime": "2014-10-30T22:13:17+01:00",
+  "ExeSHA256": "7af5499eabab740ca3dea567b81aab7c54b89b5820ac3ba084330eee72ae114d",
+  "ExeSize": 36519112,
+  "MatrixProtocolVersion": 19333,
+  "GSSProtocolVersion": 13084
+}

@@ -1,0 +1,10 @@
+{
+  "Environment": "publictest",
+  "Branch": "designprod",
+  "Version": "1006.0",
+  "ExeBuildTime": "2015-02-24T20:42:41+01:00",
+  "ExeSHA256": "ad3033e4a0d1d6ed7b869465cf08f1b40fa6a5a882c472536e7561df8c508c15",
+  "ExeSize": 37792968,
+  "MatrixProtocolVersion": 23459,
+  "GSSProtocolVersion": 51731
+}
