@@ -22,7 +22,7 @@ namespace Sift
             GssProtocols = new();
         }
 
-        public static Result Load(string dir)
+        public static Result Load(string dir = "")
         {
             string patchDir = Path.Join(dir, "Patches");
             string matrixDir = Path.Join(dir, "Matrix");
@@ -113,6 +113,7 @@ namespace Sift
         public class GssProtocol : Namespace
         {
             [JsonProperty(Order = 0)] public bool HasRoutedMultipleMessage { get; set; }
+            [JsonProperty(Order = 5)] public Dictionary<string, byte> Routing { get; set; }
         }
     }
 }
