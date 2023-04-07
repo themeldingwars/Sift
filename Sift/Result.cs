@@ -24,9 +24,9 @@ namespace Sift
 
         public static Result Load(string dir = "")
         {
-            string patchDir = Path.Join(dir, "Patches");
-            string matrixDir = Path.Join(dir, "Matrix");
-            string gssDir = Path.Join(dir, "GSS");
+            string patchDir = Path.Combine(dir, "Patches");
+            string matrixDir = Path.Combine(dir, "Matrix");
+            string gssDir = Path.Combine(dir, "GSS");
             
             Result result = new Result();
             
