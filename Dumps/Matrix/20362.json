@@ -1,0 +1,27 @@
+{
+  "Messages": {
+    "Login": 1,
+    "EnterZoneAck": 2,
+    "ExitZoneAck": 3,
+    "KeyframeRequest": 4,
+    "RequestGhosts": 5,
+    "DEV_ExecuteCommand": 6,
+    "Referee_ExecuteCommand": 7,
+    "ClientStatus": 8,
+    "ClientPreferences": 9,
+    "SetPriorityBoost": 10,
+    "SynchronizationResponse": 11,
+    "WelcomeToTheMatrix": 12,
+    "Announce": 13,
+    "EnterZone": 14,
+    "UpdateZoneTimeSync": 15,
+    "ExitZone": 16,
+    "ScopeInHint": 17,
+    "MatrixStatus": 18,
+    "TransferInstance": 19,
+    "MatchQueueResponse": 20,
+    "ChallengeStateUpdate": 21,
+    "SynchronizationRequest": 22,
+    "GamePaused": 23
+  }
+}

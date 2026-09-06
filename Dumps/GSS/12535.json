@@ -1,0 +1,397 @@
+{
+  "HasRoutedMultipleMessage": false,
+  "Messages": {
+    "ServerProfiler_RequestNames": 1,
+    "ScoreBoardEnable": 2,
+    "NotifyPvPTeamSwitch": 3,
+    "NotifyPvPStartMatch": 4,
+    "ScoreBoardInit": 5,
+    "ScoreBoardSetWinner": 6,
+    "ScoreBoardClear": 7,
+    "ScoreBoardAddPlayer": 8,
+    "ScoreBoardRemovePlayer": 9,
+    "ScoreBoardUpdatePlayerStats": 10,
+    "ScoreBoardUpdatePlayerStatus": 11,
+    "ScoreBoardOnCharacterLoaded": 12,
+    "ServerProfiler_SendNames": 13,
+    "ServerProfiler_SendFrame": 14,
+    "TempConsoleMessage": 15,
+    "ReloadStaticData": 16,
+    "EncUINotifyGameEnded": 17,
+    "EncUINotifyRoundEnded": 18,
+    "EncUINotifyPlayerOnCP": 19,
+    "EncUINotifyPlayerOffCP": 20,
+    "EncUIProgressCP": 21,
+    "EncUIShowSpineBattleUI": 22,
+    "EncUIShowWarmUpTimer": 23,
+    "EncUISetStartTime": 24,
+    "EncUIUpdateCPOccupancy": 25,
+    "EncUIUpdateCPOwner": 26,
+    "EncUIUpdateGameScore": 27,
+    "EncUIPrintToDebugGrid": 28,
+    "EncUIDeleteDebugGridCell": 29,
+    "EncUIPrintAnnouncement": 30,
+    "EncUISetAreaOfInterest": 31,
+    "EncUIUnsetAreaOfInterest": 32,
+    "EncDebugChatMessage": 33,
+    "EncSelectWaypointFromMarker": 34,
+    "EncSetPoiName": 35,
+    "EncSendPoiMessage": 36,
+    "EncSetGameType": 37,
+    "EncRegisterPointWithPoi": 38,
+    "EncRegisterActorWithPoi": 39,
+    "EncRemovePoiFromWorld": 40,
+    "SendRadioMessage": 41,
+    "SetCutsceneStatus": 42,
+    "NpcMonitoringLog": 43,
+    "OpenYesNoDialog_v2": 44,
+    "NpcNavigationInfo": 45,
+    "NpcDevCmdResponse": 46,
+    "SquadVitalsUpdate": 47,
+    "DevRequestObjectPositions": 48,
+    "EncAlertMission": 49,
+    "MissionObjectiveUpdated": 50,
+    "MissionStatusChanged": 51,
+    "MissionReturnToChanged": 52,
+    "MissionsAvailable": 53,
+    "Achievements": 54,
+    "AchievementUnlocked": 55,
+    "InteractableStatusChanged": 56,
+    "SendTipMessage": 57,
+    "SendLocalizedTipMessage": 58,
+    "DebugLagSample": 59
+  },
+  "Children": {
+    "Character": {
+      "Views": {
+        "BaseController": 2,
+        "NPCController": 3,
+        "MissionAndMarkerController": 4,
+        "CombatController": 5,
+        "SpectatorController": 6,
+        "ObserverView": 7,
+        "AIObserverView": 8,
+        "CombatView": 9,
+        "TinyObjectView": 10,
+        "DynamicProjectileView": 11
+      },
+      "Messages": {
+        "ReceiveWeaponTweaks": 42,
+        "TookDebugWeaponHit": 43,
+        "RewardInfo": 44,
+        "ProgressionXpRefresh": 45,
+        "PublicCombatLog": 46,
+        "PrivateCombatLog": 47,
+        "AnimationUpdated": 48,
+        "RaiaNPCDebugging": 49,
+        "WeaponProjectileFired": 50,
+        "AbilityProjectileFired": 51,
+        "ProjectileHitReported": 52,
+        "Stumble": 53,
+        "SoundActionPerformed": 54,
+        "QuickChat": 55,
+        "ProximityTextChat": 56,
+        "JumpActioned": 57,
+        "JumpRolled": 58,
+        "Respawned": 59,
+        "CalledForHelp": 60,
+        "TookHit": 61,
+        "AlmostHit": 62,
+        "DealtHit": 63,
+        "Killed": 64,
+        "WarnLockTargeted": 65,
+        "ConfirmedPoseUpdate": 66,
+        "PublicDebugMovementUpdate": 67,
+        "ForcedMovement": 68,
+        "ForcedMovementCancelled": 69,
+        "GrappleClimbPermission": 70,
+        "AbilityActivated": 71,
+        "AbilityFailed": 72,
+        "AbilityCooldowns": 73,
+        "NPCInteraction": 74,
+        "OpenMovieDialog": 75,
+        "PrivateDialog": 76,
+        "PublicDialog": 77,
+        "DialogResponse": 78,
+        "OpenYesNoDialog": 79,
+        "CancelDialog": 80,
+        "AddOrUpdateInteractives": 81,
+        "RemoveInteractives": 82,
+        "InteractionProgressed": 83,
+        "InteractionCompleted": 84,
+        "InteractedWithProgressed": 85,
+        "InteractedWithCompleted": 86,
+        "TriggerAudioUI": 87,
+        "Pong": 88,
+        "InventoryUpdate": 89,
+        "SimulateLootPickup": 90,
+        "VehicleConfigurationUpdate": 91,
+        "TrackerEvent": 92,
+        "TrackerPulse": 93,
+        "PriorityTargetSet": 94,
+        "BeginVendorInteraction": 95,
+        "OutpostRegionChanged": 96,
+        "ResourceNodeCompletedEvent": 97,
+        "GeographicalReportResponse": 98,
+        "ResourceLocationInfosResponse": 99,
+        "PlaySoundRecord": 100,
+        "PlaySoundRecordAtLocation": 101,
+        "PlayDialogScriptMessage": 102,
+        "UiNamedVariableUpdate": 103,
+        "DuelNotification": 104,
+        "EncounterDebugNotification": 105,
+        "EncounterUIScopeIn": 106,
+        "EncounterUIAddSinCard": 107,
+        "EncounterUIRemoveSinCard": 108,
+        "EncounterUIUpdate": 109,
+        "EncounterUIScopeOut": 110,
+        "NewUiQuery": 111,
+        "UiQueryCancelled": 112
+      },
+      "Commands": {
+        "ReturnToPVE": 43,
+        "PlayerReady": 44,
+        "SpendAbilityPoints": 46,
+        "MatchQueue": 47,
+        "SetChallengeReadyState": 48,
+        "JoinSquadLeader": 49,
+        "PlayerRequestsDestroyItem": 53,
+        "PlayerRequestsDestroyResource": 54,
+        "CollectLoot": 58,
+        "TempSlotAbilities": 59,
+        "SinAcquire_Source": 60,
+        "Ping": 61,
+        "BroadcastWeaponTweaks": 62,
+        "MovementInput": 63,
+        "FireInputIgnored": 64,
+        "FireBurst": 65,
+        "FireEnd": 66,
+        "FireCancel": 67,
+        "FireWeaponProjectile": 68,
+        "ReportProjectileHit": 69,
+        "SelectFireMode": 70,
+        "UseScope": 71,
+        "SelectWeapon": 72,
+        "ReloadWeapon": 73,
+        "CancelReload": 74,
+        "AcquireWeaponTarget": 75,
+        "LoseWeaponTarget": 76,
+        "SendAudioUI": 79,
+        "DockToPlayer": 80,
+        "ChangeLookAtTarget": 81,
+        "ActivateAbility": 84,
+        "TargetAbility": 85,
+        "DeactivateAbility": 86,
+        "ActivateConsumable": 88,
+        "ExitAttachmentRequest": 93,
+        "NPCSetInteractionType": 96,
+        "PerformEmote": 97,
+        "PerformDialogResponse": 98,
+        "NotifyDialogScriptComplete": 99,
+        "PerformQuickChatCommand": 100,
+        "PerformProximityTextChat": 101,
+        "PerformDialog": 102,
+        "PerformSoundAction": 103,
+        "SetEffectsFlag": 104,
+        "AnimationUpdate": 105,
+        "SelectLoadout": 106,
+        "EditVehicleConfiguration": 107,
+        "CallForHelp": 108,
+        "ActivateMission": 109,
+        "AbortMission": 110,
+        "AbortAllMissions": 111,
+        "ResetMission": 112,
+        "SkipMission": 113,
+        "ListAvailableMissions": 114,
+        "ListAchievements": 115,
+        "RequestMissionAvailability": 118,
+        "CameraPoseUpdate": 122,
+        "QueueUnstuck": 129,
+        "VehicleCalldownRequest": 145,
+        "DeployableCalldownRequest": 147,
+        "DeployableHardpointSelection": 148,
+        "ResourceNodeBeaconCalldownRequest": 149,
+        "ImmediateDespawn": 150,
+        "SetWaterLevel": 157,
+        "SinLinkReveal": 158,
+        "SinEnterOutpostRegion": 160,
+        "SinExitOutpostRegion": 161,
+        "SinRefreshOutpostRegion": 162,
+        "GeographicalReportRequest": 163,
+        "SetSquadMembers": 169,
+        "RequestReloadXp": 170,
+        "ClientQueryInteractionStatus": 174,
+        "ResourceLocationInfosRequest": 176,
+        "DuelRequest": 179,
+        "PickupCarryableObjectByProximity": 180,
+        "DropCarryableObject": 181,
+        "FireAiSignal": 183,
+        "UiQueryResponse": 39
+      }
+    },
+    "Melding": {
+      "Views": {
+        "ObserverView": 13
+      }
+    },
+    "MeldingBubble": {
+      "Views": {
+        "ObserverView": 15
+      }
+    },
+    "AreaVisualData": {
+      "Views": {
+        "ObserverView": 17,
+        "ParticleEffectsView": 18,
+        "MapMarkerView": 19,
+        "TinyObjectView": 20,
+        "LootObjectView": 21,
+        "ForceShieldView": 22
+      },
+      "Messages": {
+        "LootObjectCollected": 42,
+        "AudioEmitterSpawned": 43
+      }
+    },
+    "Vehicle": {
+      "Views": {
+        "BaseController": 24,
+        "CombatController": 25,
+        "ObserverView": 26,
+        "CombatView": 27
+      },
+      "Messages": {
+        "AbilityActivated": 42,
+        "AbilityFailed": 43,
+        "WeaponProjectileFired": 44,
+        "PublicCombatLog": 45
+      },
+      "Commands": {
+        "MovementInput": 42,
+        "SinAcquire_Source": 43,
+        "ReceiveCollisionDamage": 44,
+        "ActivateAbility": 45,
+        "DeactivateAbility": 46,
+        "FireBurst": 57,
+        "FireEnd": 58,
+        "FireWeaponProjectile": 59,
+        "SetWaterLevel": 60
+      }
+    },
+    "Anchor": {
+      "Views": {
+        "AIObserverView": 29
+      }
+    },
+    "Deployable": {
+      "Views": {
+        "ObserverView": 31,
+        "NPCObserverView": 32,
+        "HardpointView": 33
+      },
+      "Messages": {
+        "TookHit": 42,
+        "AbilityProjectileFired": 43,
+        "PublicCombatLog": 44
+      }
+    },
+    "Turret": {
+      "Views": {
+        "BaseController": 35,
+        "ObserverView": 36
+      },
+      "Messages": {
+        "WeaponProjectileFired": 42
+      },
+      "Commands": {
+        "PoseUpdate": 42,
+        "FireBurst": 43,
+        "FireEnd": 44,
+        "FireWeaponProjectile": 45
+      }
+    },
+    "Outpost": {
+      "Views": {
+        "ObserverView": 41
+      }
+    },
+    "ResourceArea": {
+      "Views": {
+        "ObserverView": 43
+      }
+    },
+    "ResourceNode": {
+      "Views": {
+        "ObserverView": 45
+      }
+    },
+    "Encounter": {
+      "Commands": {
+        "UiQueryResponse": 39
+      }
+    },
+    "EncounterProxy": {
+      "Views": {
+        "ObserverView": 48
+      }
+    },
+    "CarryableObject": {
+      "Views": {
+        "ObserverView": 50
+      }
+    }
+  },
+  "Routing": {
+    "Generic": 0,
+    "Character": 1,
+    "Character::BaseController": 2,
+    "Character::NPCController": 3,
+    "Character::MissionAndMarkerController": 4,
+    "Character::CombatController": 5,
+    "Character::SpectatorController": 6,
+    "Character::ObserverView": 7,
+    "Character::AIObserverView": 8,
+    "Character::CombatView": 9,
+    "Character::TinyObjectView": 10,
+    "Character::DynamicProjectileView": 11,
+    "Melding": 12,
+    "Melding::ObserverView": 13,
+    "MeldingBubble": 14,
+    "MeldingBubble::ObserverView": 15,
+    "AreaVisualData": 16,
+    "AreaVisualData::ObserverView": 17,
+    "AreaVisualData::ParticleEffectsView": 18,
+    "AreaVisualData::MapMarkerView": 19,
+    "AreaVisualData::TinyObjectView": 20,
+    "AreaVisualData::LootObjectView": 21,
+    "AreaVisualData::ForceShieldView": 22,
+    "Vehicle": 23,
+    "Vehicle::BaseController": 24,
+    "Vehicle::CombatController": 25,
+    "Vehicle::ObserverView": 26,
+    "Vehicle::CombatView": 27,
+    "Anchor": 28,
+    "Anchor::AIObserverView": 29,
+    "Deployable": 30,
+    "Deployable::ObserverView": 31,
+    "Deployable::NPCObserverView": 32,
+    "Deployable::HardpointView": 33,
+    "Turret": 34,
+    "Turret::BaseController": 35,
+    "Turret::ObserverView": 36,
+    "TinyObjectType": 37,
+    "CharacterAbilityPhysics": 38,
+    "ProjectileObjectType": 39,
+    "Outpost": 40,
+    "Outpost::ObserverView": 41,
+    "ResourceArea": 42,
+    "ResourceArea::ObserverView": 43,
+    "ResourceNode": 44,
+    "ResourceNode::ObserverView": 45,
+    "Encounter": 46,
+    "EncounterProxy": 47,
+    "EncounterProxy::ObserverView": 48,
+    "CarryableObject": 49,
+    "CarryableObject::ObserverView": 50
+  }
+}
