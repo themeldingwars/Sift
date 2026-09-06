@@ -1,0 +1,24 @@
+{
+  "Messages": {
+    "Login": 1,
+    "EnterZoneAck": 2,
+    "ExitZoneAck": 3,
+    "KeyframeRequest": 4,
+    "RequestGhosts": 5,
+    "DEV_ExecuteCommand": 6,
+    "ClientStatus": 7,
+    "ClientPreferences": 8,
+    "SetPriorityBoost": 9,
+    "SetSpectatorTarget": 10,
+    "WelcomeToTheMatrix": 11,
+    "Announce": 12,
+    "EnterZone": 13,
+    "UpdateZoneTimeSync": 14,
+    "ExitZone": 15,
+    "ScopeInHint": 16,
+    "MatrixStatus": 17,
+    "SpectatorTargetSet": 18,
+    "TransferInstance": 19,
+    "MatchQueueResponse": 20
+  }
+}
