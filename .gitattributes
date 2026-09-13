@@ -61,3 +61,13 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+###############################################################################
+# Protocol dumps
+#
+# Aero.ProtocolGen hashes these files byte for byte and stamps the result into
+# the sources it generates. Under `* text=auto` above they check out as CRLF on
+# Windows and LF everywhere else, which yields a different hash per platform and
+# breaks the "generated files are up to date" check. Pin them to LF.
+###############################################################################
+Dumps/**/*.json text eol=lf
