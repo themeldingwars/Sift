@@ -1,0 +1,10 @@
+{
+  "Environment": "cn",
+  "Branch": "stabilization",
+  "Version": "1263.0",
+  "ExeBuildTime": "2015-03-24T00:03:28+01:00",
+  "ExeSHA256": "2cfce8252e8d8fd7d4818d12db1184d65c2197927a1b5b63f3394798221271d9",
+  "ExeSize": 38469320,
+  "MatrixProtocolVersion": 63345,
+  "GSSProtocolVersion": 58464
+}
