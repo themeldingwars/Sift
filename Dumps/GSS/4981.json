@@ -93,6 +93,7 @@
     "RequestActiveEncounters_Response": 106,
     "ShoppingListInit": 107,
     "SetClientDailyInfo": 108,
+    "GlobalCounterUpdate": 109,
     "GlobalCounterMilestoneInfo": 110,
     "ChatMessageList": 111,
     "CurrentLoadoutResponse": 112,
